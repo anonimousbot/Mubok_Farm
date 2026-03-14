@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mubok Farm – From Our Land to Your Table</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo" aria-label="Mubok Farm Home">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M20 4C20 4 8 12 8 22C8 28.627 13.373 34 20 34C26.627 34 32 28.627 32 22C32 12 20 4 20 4Z" fill="currentColor" opacity="0.2"/>
+          <path d="M20 4C20 4 8 12 8 22C8 28.627 13.373 34 20 34C26.627 34 32 28.627 32 22C32 12 20 4 20 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M20 13V30M14 20H26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="32" cy="10" r="4" fill="currentColor" opacity="0.55"/>
+          <path d="M29.5 7.5L34.5 12.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-wordmark">Mubok <em>Farm</em></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#livestock" class="nav-link">Livestock</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="nav-cta">Get a Free Quote</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <div class="hero-shapes">
+          <div class="hs hs-1"></div>
+          <div class="hs hs-2"></div>
+          <div class="hs hs-3"></div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-badge reveal">
+          <svg viewBox="0 0 10 10" aria-hidden="true"><circle cx="5" cy="5" r="3" fill="currentColor"/></svg>
+          Est. 2005 &nbsp;&middot;&nbsp; Proudly Nigerian
+        </div>
+        <h1 class="hero-title reveal delay-1">
+          Rooted in the<br/>
+          <em>Earth,</em> Grown<br/>
+          with <em>Integrity.</em>
+        </h1>
+        <p class="hero-sub reveal delay-2">
+          Mubok Farm delivers fresh produce and responsibly raised livestock straight from our fields to your community — naturally, ethically, and with pride.
+        </p>
+        <div class="hero-actions reveal delay-3">
+          <a href="#contact" class="btn btn-primary">
+            Get a Free Quote
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg>
+          </a>
+          <a href="#services" class="btn btn-ghost">Explore Our Farm</a>
+        </div>
+        <div class="hero-stats reveal delay-3">
+          <div class="stat"><strong>20+</strong><span>Years of Excellence</span></div>
+          <div class="stat-sep"></div>
+          <div class="stat"><strong>500+</strong><span>Families Served</span></div>
+          <div class="stat-sep"></div>
+          <div class="stat"><strong>100%</strong><span>Natural Produce</span></div>
+        </div>
+      </div>
+      <div class="hero-scroll-cue">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">What We Offer</span>
+          <h2 class="section-title">Farm Fresh <em>Services</em></h2>
+          <p class="section-desc">From seed to harvest, from pasture to plate — every step managed with integrity and care.</p>
+        </div>
+        <div class="services-grid">
+
+          <article class="service-card" data-aos>
+            <div class="svc-icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="24" y1="42" x2="24" y2="20"/>
+                <path d="M24 34c-4-2-7-6-7-11a7 7 0 0 1 7-7"/>
+                <path d="M24 34c4-2 7-6 7-11a7 7 0 0 0-7-7"/>
+                <path d="M24 28c-2.5-1.5-4-4-4-7a4 4 0 0 1 4-4"/>
+                <path d="M24 28c2.5-1.5 4-4 4-7a4 4 0 0 0-4-4"/>
+                <line x1="18" y1="42" x2="30" y2="42"/>
+              </svg>
+            </div>
+            <h3>Crop Farming</h3>
+            <p>Seasonal crops cultivated with sustainable practices — maize, sorghum, vegetables, and more, delivered fresh from our fields.</p>
+            <a href="#contact" class="card-link">
+              Enquire
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card featured" data-aos>
+            <div class="featured-badge">Most Popular</div>
+            <div class="svc-icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M10 21c0-2 1.5-4 3.5-5L16 15v-4h4v3.5l3-1h6l3 1V11h4v4l2.5 1c2 1 3.5 3 3.5 5v8c0 2-1 3.5-2.5 4.5V38h-5v-3H15v3h-5v-4.5C8.5 32.5 8 31 8 29v-8z"/>
+                <circle cx="19" cy="23" r="1.5" fill="currentColor" stroke="none"/>
+                <circle cx="29" cy="23" r="1.5" fill="currentColor" stroke="none"/>
+                <path d="M21 30c1 1.5 5 1.5 6 0"/>
+                <path d="M13 14c-2-1-4-3-2-6 1-1.5 3.5 0 3.5 0s.5-3.5 2.5-3"/>
+                <path d="M35 14c2-1 4-3 2-6-1-1.5-3.5 0-3.5 0s-.5-3.5-2.5-3"/>
+              </svg>
+            </div>
+            <h3>Livestock Rearing</h3>
+            <p>Ethically raised cattle, goats, sheep, and poultry in open pastures. Quality meat and dairy with the highest welfare standards.</p>
+            <a href="#contact" class="card-link">
+              Enquire
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card" data-aos>
+            <div class="svc-icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="4" y="17" width="28" height="18" rx="2"/>
+                <path d="M32 23h7l5 7v6H32V23z"/>
+                <circle cx="13" cy="38" r="4.5"/>
+                <circle cx="37" cy="38" r="4.5"/>
+                <line x1="4" y1="23" x2="32" y2="23"/>
+                <line x1="10" y1="17" x2="10" y2="10"/>
+                <line x1="22" y1="17" x2="22" y2="10"/>
+                <line x1="7" y1="10" x2="25" y2="10"/>
+              </svg>
+            </div>
+            <h3>Farm-to-Door Delivery</h3>
+            <p>We bring our freshest produce and animal products directly to your home, restaurant, or business. Reliable, fast, and fully local.</p>
+            <a href="#contact" class="card-link">
+              Enquire
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+      <div class="container about-grid">
+
+        <div class="about-visual" data-aos>
+          <figure class="about-illustration">
+            <svg viewBox="0 0 440 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mubok Farm scenic illustration">
+              <!-- Deep sky -->
+              <rect width="440" height="340" fill="#1a2e1c"/>
+              <!-- Subtle horizon glow -->
+              <ellipse cx="220" cy="200" rx="280" ry="100" fill="#2d4a1e" opacity="0.6"/>
+              <!-- Moon -->
+              <circle cx="370" cy="55" r="26" fill="#c9932a" opacity="0.5"/>
+              <circle cx="378" cy="50" r="20" fill="#1a2e1c"/>
+              <!-- Stars -->
+              <circle cx="40" cy="28" r="1.2" fill="#f5f0e8" opacity="0.7"/>
+              <circle cx="80" cy="18" r="0.8" fill="#f5f0e8" opacity="0.5"/>
+              <circle cx="155" cy="30" r="1" fill="#f5f0e8" opacity="0.6"/>
+              <circle cx="200" cy="18" r="1.2" fill="#f5f0e8" opacity="0.7"/>
+              <circle cx="255" cy="28" r="0.8" fill="#f5f0e8" opacity="0.5"/>
+              <circle cx="300" cy="15" r="1" fill="#f5f0e8" opacity="0.6"/>
+              <circle cx="60" cy="55" r="0.8" fill="#f5f0e8" opacity="0.4"/>
+              <circle cx="130" cy="50" r="1" fill="#f5f0e8" opacity="0.5"/>
+              <!-- Background hills -->
+              <ellipse cx="220" cy="310" rx="300" ry="90" fill="#162414"/>
+              <ellipse cx="60" cy="290" rx="140" ry="70" fill="#1e2e14"/>
+              <ellipse cx="390" cy="295" rx="120" ry="65" fill="#1e2e14"/>
+              <!-- Barn structure -->
+              <rect x="155" y="168" width="130" height="98" fill="#5c3a1e"/>
+              <rect x="155" y="168" width="130" height="98" stroke="#7a4f28" stroke-width="1"/>
+              <!-- Barn roof -->
+              <polygon points="148,168 220,115 292,168" fill="#4a2e14"/>
+              <polygon points="148,168 220,115 292,168" fill="none" stroke="#6b4422" stroke-width="1.5"/>
+              <!-- Barn silo -->
+              <rect x="290" y="185" width="28" height="81" rx="2" fill="#4a3220"/>
+              <ellipse cx="304" cy="185" rx="14" ry="6" fill="#5c4030"/>
+              <!-- Barn door -->
+              <rect x="192" y="210" width="56" height="56" rx="2" fill="#2a1a0c"/>
+              <line x1="220" y1="210" x2="220" y2="266" stroke="#4a2e14" stroke-width="1.5"/>
+              <line x1="192" y1="238" x2="248" y2="238" stroke="#4a2e14" stroke-width="1.5"/>
+              <circle cx="216" cy="238" r="2.5" fill="#c9932a"/>
+              <circle cx="224" cy="238" r="2.5" fill="#c9932a"/>
+              <!-- Windows -->
+              <rect x="162" y="180" width="26" height="22" rx="2" fill="#2a1a0c"/>
+              <rect x="252" y="180" width="26" height="22" rx="2" fill="#2a1a0c"/>
+              <line x1="175" y1="180" x2="175" y2="202" stroke="#3a2410" stroke-width="1"/>
+              <line x1="265" y1="180" x2="265" y2="202" stroke="#3a2410" stroke-width="1"/>
+              <!-- Warm barn light glow -->
+              <ellipse cx="220" cy="266" rx="40" ry="8" fill="#c9932a" opacity="0.1"/>
+              <!-- Tree left -->
+              <rect x="78" y="218" width="9" height="48" fill="#3d2c1a"/>
+              <ellipse cx="82" cy="210" rx="26" ry="35" fill="#1e4020" opacity="0.9"/>
+              <ellipse cx="78" cy="200" rx="18" ry="24" fill="#265526"/>
+              <!-- Tree right -->
+              <rect x="362" y="222" width="9" height="44" fill="#3d2c1a"/>
+              <ellipse cx="366" cy="214" rx="24" ry="32" fill="#1e4020" opacity="0.9"/>
+              <ellipse cx="370" cy="205" rx="16" ry="22" fill="#265526"/>
+              <!-- Fence left -->
+              <line x1="106" y1="248" x2="106" y2="275" stroke="#7a6040" stroke-width="2.5"/>
+              <line x1="120" y1="246" x2="120" y2="273" stroke="#7a6040" stroke-width="2.5"/>
+              <line x1="134" y1="246" x2="134" y2="273" stroke="#7a6040" stroke-width="2.5"/>
+              <line x1="148" y1="247" x2="148" y2="274" stroke="#7a6040" stroke-width="2.5"/>
+              <line x1="104" y1="257" x2="150" y2="255" stroke="#7a6040" stroke-width="2"/>
+              <line x1="104" y1="268" x2="150" y2="267" stroke="#7a6040" stroke-width="2"/>
+              <!-- Fence right -->
+              <line x1="292" y1="247" x2="292" y2="274" stroke="#7a6040" stroke-width="2.5"/>
+              <line x1="306" y1="246" x2="306" y2="273" stroke="#7a6040" stroke-width="2.5"/>
+              <line x1="320" y1="246" x2="320" y2="273" stroke="#7a6040" stroke-width="2.5"/>
+              <line x1="334" y1="248" x2="334" y2="275" stroke="#7a6040" stroke-width="2.5"/>
+              <line x1="290" y1="257" x2="336" y2="255" stroke="#7a6040" stroke-width="2"/>
+              <line x1="290" y1="268" x2="336" y2="267" stroke="#7a6040" stroke-width="2"/>
+              <!-- Cow silhouette -->
+              <ellipse cx="120" cy="268" rx="20" ry="11" fill="#4a3020"/>
+              <ellipse cx="138" cy="262" rx="10" ry="9" fill="#4a3020"/>
+              <line x1="104" y1="279" x2="102" y2="294" stroke="#3a2415" stroke-width="3"/>
+              <line x1="112" y1="280" x2="111" y2="294" stroke="#3a2415" stroke-width="3"/>
+              <line x1="122" y1="279" x2="121" y2="294" stroke="#3a2415" stroke-width="3"/>
+              <line x1="132" y1="279" x2="133" y2="294" stroke="#3a2415" stroke-width="3"/>
+              <line x1="143" y1="257" x2="150" y2="254" stroke="#3a2415" stroke-width="2.5"/>
+              <!-- Sheep silhouette -->
+              <ellipse cx="322" cy="269" rx="16" ry="10" fill="#bdb5a8"/>
+              <ellipse cx="336" cy="264" rx="9" ry="8" fill="#bdb5a8"/>
+              <line x1="310" y1="279" x2="308" y2="292" stroke="#888074" stroke-width="2.5"/>
+              <line x1="318" y1="280" x2="317" y2="292" stroke="#888074" stroke-width="2.5"/>
+              <line x1="326" y1="280" x2="325" y2="292" stroke="#888074" stroke-width="2.5"/>
+              <line x1="334" y1="279" x2="335" y2="292" stroke="#888074" stroke-width="2.5"/>
+              <!-- Wheat stalks -->
+              <g opacity="0.85" stroke="#b8902a" stroke-width="1.5" stroke-linecap="round">
+                <line x1="170" y1="280" x2="169" y2="258"/>
+                <line x1="178" y1="280" x2="177" y2="255"/>
+                <line x1="186" y1="280" x2="185" y2="258"/>
+                <line x1="194" y1="280" x2="193" y2="256"/>
+                <line x1="202" y1="280" x2="201" y2="259"/>
+                <line x1="246" y1="280" x2="245" y2="258"/>
+                <line x1="254" y1="280" x2="253" y2="255"/>
+                <line x1="262" y1="280" x2="261" y2="258"/>
+                <line x1="270" y1="280" x2="269" y2="256"/>
+                <!-- Grain heads -->
+                <ellipse cx="169" cy="255" rx="3" ry="5" fill="#c9932a" stroke="none" opacity="0.8"/>
+                <ellipse cx="177" cy="252" rx="3" ry="5" fill="#c9932a" stroke="none" opacity="0.8"/>
+                <ellipse cx="185" cy="255" rx="3" ry="5" fill="#c9932a" stroke="none" opacity="0.8"/>
+                <ellipse cx="193" cy="253" rx="3" ry="5" fill="#c9932a" stroke="none" opacity="0.8"/>
+                <ellipse cx="201" cy="256" rx="3" ry="5" fill="#c9932a" stroke="none" opacity="0.8"/>
+                <ellipse cx="245" cy="255" rx="3" ry="5" fill="#c9932a" stroke="none" opacity="0.8"/>
+                <ellipse cx="253" cy="252" rx="3" ry="5" fill="#c9932a" stroke="none" opacity="0.8"/>
+                <ellipse cx="261" cy="255" rx="3" ry="5" fill="#c9932a" stroke="none" opacity="0.8"/>
+                <ellipse cx="269" cy="253" rx="3" ry="5" fill="#c9932a" stroke="none" opacity="0.8"/>
+              </g>
+              <!-- Ground plane -->
+              <rect x="0" y="295" width="440" height="45" fill="#0e1c0e" opacity="0.7"/>
+              <!-- Brand text -->
+              <text x="220" y="325" text-anchor="middle" font-family="Georgia, serif" font-size="10" fill="#c9932a" opacity="0.6" letter-spacing="5">MUBOK FARM</text>
+            </svg>
+          </figure>
+          <div class="about-stat-pill">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <div>
+              <strong>20+ Years</strong>
+              <span>of farming excellence</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-text" data-aos>
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title">Why Choose <em>Mubok Farm?</em></h2>
+          <p class="about-intro">Since 2005, Mubok Farm has been a cornerstone of our community — a place where traditional farming wisdom meets modern, sustainable methods. Our land is our heritage, and everything raised here reflects our commitment to quality.</p>
+          <ul class="about-checklist">
+            <li>
+              <span class="checkmark">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 10l5 5 7-8"/></svg>
+              </span>
+              <div>
+                <strong>100% Natural</strong>
+                <p>No harmful chemicals or artificial additives — ever.</p>
+              </div>
+            </li>
+            <li>
+              <span class="checkmark">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 10l5 5 7-8"/></svg>
+              </span>
+              <div>
+                <strong>Ethical Livestock</strong>
+                <p>Our animals roam free and are raised with care and respect.</p>
+              </div>
+            </li>
+            <li>
+              <span class="checkmark">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 10l5 5 7-8"/></svg>
+              </span>
+              <div>
+                <strong>Community First</strong>
+                <p>We partner with local families, restaurants, and schools.</p>
+              </div>
+            </li>
+            <li>
+              <span class="checkmark">
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M4 10l5 5 7-8"/></svg>
+              </span>
+              <div>
+                <strong>Sustainable Practices</strong>
+                <p>We protect the land and resources for future generations.</p>
+              </div>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">
+            Work With Us
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LIVESTOCK ===== -->
+    <section class="livestock" id="livestock">
+      <div class="container">
+        <div class="section-header light">
+          <span class="section-label">Our Animals</span>
+          <h2 class="section-title">Responsibly Raised <em>Livestock</em></h2>
+          <p class="section-desc">Every animal on Mubok Farm is raised with dignity, space, and proper nutrition in open pastures.</p>
+        </div>
+        <div class="livestock-grid">
+
+          <div class="lv-card" data-aos>
+            <div class="lv-icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M10 21c0-2 1.5-4 3.5-5L16 15v-4h4v3.5l3-1h6l3 1V11h4v4l2.5 1c2 1 3.5 3 3.5 5v8c0 2-1 3.5-2.5 4.5V38h-5v-3H15v3h-5v-4.5C8.5 32.5 8 31 8 29v-8z"/>
+                <circle cx="19" cy="23" r="1.5" fill="currentColor" stroke="none"/>
+                <circle cx="29" cy="23" r="1.5" fill="currentColor" stroke="none"/>
+                <path d="M21 30c1 1.5 5 1.5 6 0"/>
+                <path d="M13 14c-2-1-4-3-2-6 1-1.5 3.5 0 3.5 0s.5-3.5 2.5-3"/>
+                <path d="M35 14c2-1 4-3 2-6-1-1.5-3.5 0-3.5 0s-.5-3.5-2.5-3"/>
+              </svg>
+            </div>
+            <h4>Cattle</h4>
+            <p>Grass-fed, pasture-raised beef and dairy cattle reared with exceptional care.</p>
+          </div>
+
+          <div class="lv-card" data-aos>
+            <div class="lv-icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <ellipse cx="22" cy="28" rx="13" ry="9"/>
+                <circle cx="33" cy="17" r="7"/>
+                <circle cx="31" cy="15" r="1.5" fill="currentColor" stroke="none"/>
+                <path d="M29 11L26 7M37 11L40 7"/>
+                <line x1="14" y1="36" x2="13" y2="46"/>
+                <line x1="19" y1="37" x2="18" y2="46"/>
+                <line x1="25" y1="37" x2="25" y2="46"/>
+                <line x1="30" y1="36" x2="31" y2="46"/>
+                <path d="M36 21L43 25"/>
+              </svg>
+            </div>
+            <h4>Goats</h4>
+            <p>Hardy, healthy goats raised for quality meat and rich, nutritious milk.</p>
+          </div>
+
+          <div class="lv-card" data-aos>
+            <div class="lv-icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <ellipse cx="22" cy="27" rx="13" ry="10"/>
+                <circle cx="33" cy="20" r="6"/>
+                <circle cx="31" cy="18" r="1.5" fill="currentColor" stroke="none"/>
+                <path d="M11 22c-2-1-5-3-3-7 1-2 3.5-1 4.5-1s0-4.5 2.5-4.5 3 3.5 3 3.5 1.5-3.5 3.5-2.5"/>
+                <path d="M28 27c3 0 5-1 6 1"/>
+                <line x1="14" y1="36" x2="12" y2="46"/>
+                <line x1="19" y1="37" x2="18" y2="46"/>
+                <line x1="25" y1="37" x2="24" y2="46"/>
+                <line x1="30" y1="36" x2="31" y2="46"/>
+              </svg>
+            </div>
+            <h4>Sheep</h4>
+            <p>Free-range sheep producing premium wool and high-quality meat cuts.</p>
+          </div>
+
+          <div class="lv-card" data-aos>
+            <div class="lv-icon">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <ellipse cx="22" cy="29" rx="11" ry="9"/>
+                <circle cx="31" cy="17" r="7"/>
+                <circle cx="33" cy="15" r="1.5" fill="currentColor" stroke="none"/>
+                <path d="M31 10L37 7L35 13"/>
+                <path d="M27 11L23 7L21 12"/>
+                <line x1="16" y1="37" x2="14" y2="46"/>
+                <line x1="22" y1="38" x2="22" y2="46"/>
+                <line x1="28" y1="38" x2="30" y2="46"/>
+                <path d="M35 22L40 24L35 26"/>
+              </svg>
+            </div>
+            <h4>Poultry</h4>
+            <p>Free-roaming chickens and ducks producing premium eggs and quality meat.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-info" data-aos>
+          <span class="section-label">Reach Out</span>
+          <h2 class="section-title">Let's <em>Connect</em></h2>
+          <p class="contact-intro">Have a question about our produce, livestock, or delivery? We respond within 24 hours.</p>
+          <div class="contact-items">
+
+            <div class="c-item">
+              <div class="c-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 4h4l2 5-3 2a11 11 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2C10 20 4 13.6 4 6a2 2 0 0 1 1-1.7z"/></svg>
+              </div>
+              <div class="c-text">
+                <strong>Phone</strong>
+                <a href="tel:+2349070072809">+234 907 007 2809</a>
+              </div>
+            </div>
+
+            <div class="c-item">
+              <div class="c-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
+              </div>
+              <div class="c-text">
+                <strong>Email</strong>
+                <a href="mailto:mubokfarm@gmail.com"><span class="__cf_email__">mubokfarm</span></a>
+              </div>
+            </div>
+
+            <div class="c-item">
+              <div class="c-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              </div>
+              <div class="c-text">
+                <strong>Location</strong>
+                <span>Mubok Farm, Nigeria</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+     <form class="contact-form" id="contactForm" data-aos novalidate>
+          <h3 class="form-heading">Send Us a Message</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <div class="field-wrap">
+                <svg class="field-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="7" r="4"/><path d="M2 18c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+                <input type="text" id="name" name="name" placeholder="John Doe" required autocomplete="name" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <div class="field-wrap">
+                <svg class="field-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="4" width="16" height="12" rx="2"/><path d="M2 6l8 6 8-6"/></svg>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone <span class="lbl-opt">(optional)</span></label>
+            <div class="field-wrap">
+              <svg class="field-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 3h3l1.5 4-2 1.5a11 11 0 0 0 4 4l1.5-2 4 1.5V15a1 1 0 0 1-1 1C8.4 16 4 11.6 4 6a1 1 0 0 1 1-1z"/></svg>
+              <input type="tel" id="phone" name="phone" placeholder="+234 00 000 0000" autocomplete="tel" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            <span class="btn-text">Send Message</span>
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg>
+          </button>
+          <p class="form-success" id="formSuccess" aria-live="polite">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="10" cy="10" r="8"/><path d="M6 10l3 3 5-5"/></svg>
+            Message sent. We will be in touch shortly.
+          </p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="logo footer-logo">
+            <svg class="logo-icon" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <path d="M20 4C20 4 8 12 8 22C8 28.627 13.373 34 20 34C26.627 34 32 28.627 32 22C32 12 20 4 20 4Z" fill="currentColor" opacity="0.2"/>
+              <path d="M20 4C20 4 8 12 8 22C8 28.627 13.373 34 20 34C26.627 34 32 28.627 32 22C32 12 20 4 20 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              <path d="M20 13V30M14 20H26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="32" cy="10" r="4" fill="currentColor" opacity="0.55"/>
+            </svg>
+            <span class="logo-wordmark">Mubok <em>Farm</em></span>
+          </a>
+          <p>From our land to your table — with integrity and pride.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <strong>Navigate</strong>
+          <a href="#services">Services</a>
+          <a href="#about">About Us</a>
+          <a href="#livestock">Livestock</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-contact-col">
+          <strong>Contact</strong>
+          <a href="tel:+2349070072809">+234 907 007 2809 </a>
+          <a href="mailto:buthman2020gmail.com">mubokfarm@gmail.com</a>
+          <span>Nigeria</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Mubok Farm. All rights reserved.</p>
+        <p>Est. 2005 &middot; Proudly Nigerian</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    emailjs.init('CF5JLlZVt-VrpKv1b');
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
